@@ -1,7 +1,7 @@
 
 # PHP-Nslookup
 
-_Check Nslookup registro A / AAAA / CAA / MX / NS / TXT _
+_Check Nslookup registro A / AAAA / CAA / MX / NS / TXT_
 
 ## Comenzando 🚀
 
@@ -45,13 +45,19 @@ title.php
 
   ```
  function.php
-
-Line 54 REG_AAAA($Dominio);   // Comentar '#' Ej: #REG_AAAA($Dominio); (No mostrara Registros de IPv6)
-Line 55 REG_CAA($Dominio);    // Comentar '#' Ej: #REG_CAA($Dominio); (No mostrara Registros CAA)
-Line 56 REG_MX($Dominio);     // Comentar '#' Ej: #REG_MX($Dominio); (No mostrara Registros MX)
-Line 57 REG_NS($Dominio);     // Comentar '#' Ej: #REG_NS($Dominio); (No mostrara Registros NS)
-Line 58 REG_TXT($Dominio);    // Comentar '#' Ej: #REG_TXT($Dominio); (No mostrara Registros TXT)
-
+.
+.
+.
+.
+Line 54 REG_AAAA($Dominio);   // Comentar '# o //' Ej: #REG_AAAA($Dominio); (No mostrara Registros de IPv6)
+Line 55 REG_CAA($Dominio);    // Comentar '# o //' Ej: #REG_CAA($Dominio); (No mostrara Registros CAA)
+Line 56 REG_MX($Dominio);     // Comentar '# o //' Ej: #REG_MX($Dominio); (No mostrara Registros MX)
+Line 57 REG_NS($Dominio);     // Comentar '# o //' Ej: #REG_NS($Dominio); (No mostrara Registros NS)
+Line 58 REG_TXT($Dominio);    // Comentar '# o //' Ej: #REG_TXT($Dominio); (No mostrara Registros TXT)
+.
+.
+.
+.
   ```
 
 
